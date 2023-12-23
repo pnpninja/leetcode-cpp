@@ -1,0 +1,4 @@
+bazel-bin/*
+bazel-Leetcode/*
+bazel-out/*
+bazel-testlogs/*
