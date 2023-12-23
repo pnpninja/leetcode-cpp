@@ -1,6 +1,6 @@
 cc_test(
     name = "merge_sorted_array",
-    srcs = ["merge_sorted_array.cpp"],
+    srcs = ["q88.cpp"],
     deps = [
         "@com_google_googletest//:gtest_main",
     ],
@@ -8,7 +8,7 @@ cc_test(
 
 cc_test(
     name = "remove_element",
-    srcs = ["remove_element.cpp"],
+    srcs = ["q27.cpp"],
     deps = [
         "@com_google_googletest//:gtest_main",
     ],
