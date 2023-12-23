@@ -10,6 +10,7 @@ git_repository(
 git_repository(
     name = "glog",
     remote = "https://github.com/google/glog.git",
+    tag = "v0.6.0"
 )
 
 git_repository(

@@ -22,7 +22,6 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
   while(nums2_ptr >= 0){
     nums1[combined_ptr--] = nums2[nums2_ptr--];
   }
-
 }
 
 TEST(MergeSortedArray, TestCase1){
