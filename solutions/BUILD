@@ -46,3 +46,39 @@ cc_test(
         "@glog",
     ],
 )
+
+cc_test(
+    name = "best_time_to_buy_and_sell_stock",
+    srcs = ["q121.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "best_time_to_buy_and_sell_stock_ii",
+    srcs = ["q122.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "best_time_to_buy_and_sell_stock_iii",
+    srcs = ["q123.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "jump_game",
+    srcs = ["q55.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
