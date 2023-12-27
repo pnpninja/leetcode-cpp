@@ -82,3 +82,84 @@ cc_test(
         "@glog",
     ],
 )
+
+cc_test(
+    name = "jump_game_ii",
+    srcs = ["q45.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "insert_delete_getrandom_o1",
+    srcs = ["q380.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "product_of_array_except_self",
+    srcs = ["q238.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "gas_station",
+    srcs = ["q134.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "candy",
+    srcs = ["q135.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "trapping_rain_water",
+    srcs = ["q42.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "roman_to_integer",
+    srcs = ["q13.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "integer_to_roman",
+    srcs = ["q12.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "longest_common_prefix",
+    srcs = ["q14.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
