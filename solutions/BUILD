@@ -163,3 +163,93 @@ cc_test(
         "@glog",
     ],
 )
+
+cc_test(
+    name = "reverse_words_in_a_string",
+    srcs = ["q151.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "zigzag_conversion",
+    srcs = ["q6.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "find_index_of_first_occurence_of_string",
+    srcs = ["q28.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(                                                                 
+    name = "valid_palindrome",
+    srcs = ["q125.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(                                                                 
+    name = "palindrome_linked_list",
+    srcs = ["q234.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(                                                                 
+    name = "is_subsequence",
+    srcs = ["q392.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(                                                                 
+    name = "two_sum",
+    srcs = ["q1.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "two_sum_input_array_sorted",
+    srcs = ["q167.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "container_with_most_water",
+    srcs = ["q11.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "three_sum",
+    srcs = ["q15.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
