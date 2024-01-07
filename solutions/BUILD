@@ -253,3 +253,102 @@ cc_test(
         "@glog",
     ],
 )
+
+cc_test(
+    name = "minimum_size_subarray_sum",
+    srcs = ["q209.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "longest_substring_without_repeating_characters",
+    srcs = ["q3.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "substring_with_concatenation_of_all_words",
+    srcs = ["q30.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "permutations",
+    srcs = ["q46.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "combinations",
+    srcs = ["q77.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "minimum_window_substring",
+    srcs = ["q76.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "valid_sudoku",
+    srcs = ["q36.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "spiral_matrix",
+    srcs = ["q54.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "rotate_matrix",
+    srcs = ["q48.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "ransom_note",
+    srcs = ["q383.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
+
+cc_test(
+    name = "isomorphic_strings",
+    srcs = ["q205.cpp"],
+    deps = [
+        "@com_google_googletest//:gtest_main",
+        "@glog",
+    ],
+)
